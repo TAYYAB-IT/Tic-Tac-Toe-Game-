@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tic_Tac_Toe));
             this.game_lable = new System.Windows.Forms.Label();
             this.player_1_label = new System.Windows.Forms.Label();
             this.player_2_label = new System.Windows.Forms.Label();
@@ -360,6 +361,7 @@
             this.Controls.Add(this.player_2_label);
             this.Controls.Add(this.player_1_label);
             this.Controls.Add(this.game_lable);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Tic_Tac_Toe";
             this.Text = "Tic Tac Toe: Rajusko";
             this.ResumeLayout(false);
